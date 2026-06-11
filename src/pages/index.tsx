@@ -6,18 +6,6 @@ import { ServicesGrid } from "@/components/site/ServicesGrid";
 import about1 from "@/assets/about-1.jpg";
 import { Link } from "react-router-dom";
 
-// export const Route = createFileRoute("/")({
-//   head: () => ({
-//     meta: [
-//       { title: "HA Construction — Premium Construction & Finishing in KPK" },
-//       { name: "description", content: "Government-registered construction & finishing firm in Swabi, KPK. Civil works, MS pipe, waterproofing, paint, plumbing & renovation — delivered on time, on budget." },
-//       { property: "og:title", content: "HA Construction — Premium Construction & Finishing in KPK" },
-//       { property: "og:description", content: "From foundation to final finish. Civil, mechanical & finishing works across Khyber Pakhtunkhwa." },
-//     ],
-//   }),
-//   component: Index,
-// });
-
 export default function Home() {
   return (
     <SiteLayout hero>
@@ -62,8 +50,8 @@ export default function Home() {
           <SectionHeader
             align="left"
             eyebrow="About HA Construction"
-            title="Your trusted construction & finishing partner in KPK."
-            subtitle="Established in Swabi with a vision to deliver excellence in civil, mechanical and finishing works. We serve residential, commercial and industrial clients across Khyber Pakhtunkhwa — with a proven record of on-time delivery, quality workmanship, and transparent dealing."
+            title="Your trusted construction & finishing partner across Pakistan."
+            subtitle="Established in Swabi with a vision to deliver excellence in civil, mechanical and finishing works. We serve residential, commercial and industrial clients across all of Pakistan — from Karachi to Khyber, Lahore to Quetta — with a proven record of on-time delivery, quality workmanship, and transparent dealing."
           />
           <ul className="mt-8 grid sm:grid-cols-2 gap-3">
             {[
@@ -171,13 +159,13 @@ export default function Home() {
       <section className="py-24 container-x">
         <SectionHeader
           eyebrow="Client Voices"
-          title="Trusted by clients across KPK."
+          title="Trusted by clients across Pakistan."
         />
         <div className="mt-14 grid md:grid-cols-3 gap-6">
           {[
             { name: "Engr. Kamran Khan", role: "Residential Client, Peshawar", quote: "HA Construction handled our home build from foundation to finishing. Quality and timelines were exactly as promised." },
-            { name: "Asif Ullah", role: "Commercial Client, Mardan", quote: "Their MS pipe and plumbing work for our warehouse was excellent. Professional crew, clean execution." },
-            { name: "Dr. Hina Aslam", role: "Renovation Client, Swabi", quote: "Renovated our clinic with zero disruption to operations. The finishing work is genuinely premium." },
+            { name: "Asif Ullah", role: "Commercial Client, Lahore", quote: "Their MS pipe and plumbing work for our warehouse was excellent. Professional crew, clean execution." },
+            { name: "Dr. Hina Aslam", role: "Renovation Client, Karachi", quote: "Renovated our clinic with zero disruption to operations. The finishing work is genuinely premium." },
           ].map((t) => (
             <figure key={t.name} className="relative p-8 rounded-3xl bg-white border border-border shadow-sm">
               <Quote className="absolute top-6 right-6 size-10 text-brand-orange/15" />
@@ -219,10 +207,10 @@ export default function Home() {
                 Request a Free Quote <ArrowRight className="size-5" />
               </Link>
               <a
-                href="tel:+923000000000"
+                href="tel:+923459667798"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-brand-navy-deep px-8 py-4 font-semibold hover:bg-white/90 transition-colors"
               >
-                Call: +92 300 000 0000
+                Call: +92 345 966 7798
               </a>
             </div>
           </div>

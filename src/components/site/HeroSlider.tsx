@@ -9,23 +9,23 @@ const SLIDES = [
   {
     image: hero1,
     eyebrow: "Civil · Mechanical · Finishing",
-    title: "Building KPK,",
+    title: "Building Pakistan,",
     titleAccent: "from foundation to finish.",
-    sub: "Government-registered. Quality-obsessed. Delivered on time — every time.",
+    sub: "Government-registered. Quality-obsessed. Delivered on time — everywhere.",
   },
   {
     image: hero2,
-    eyebrow: "Trusted by clients across KPK",
+    eyebrow: "Trusted by clients across Pakistan",
     title: "Engineered to last,",
     titleAccent: "finished to impress.",
-    sub: "From MS pipe installation to luxury interiors — a single team, end-to-end accountability.",
+    sub: "From MS pipe installation to luxury interiors — a single team, end-to-end accountability, nationwide service.",
   },
   {
     image: hero3,
     eyebrow: "Premium Interior & Finishing",
     title: "Spaces that feel",
     titleAccent: "as good as they look.",
-    sub: "Paint, waterproofing, plumbing & renovation by craftsmen who care about the details.",
+    sub: "Paint, waterproofing, plumbing & renovation by craftsmen who care about the details — serving all of Pakistan.",
   },
 ] as const;
 

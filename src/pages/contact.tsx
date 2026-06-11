@@ -35,7 +35,7 @@ export default function ContactPage() {
         <aside className="space-y-4 md:space-y-5 order-2 lg:order-1">
           {[
             { icon: MapPin, label: "Visit Us", value: "Swabi, Khyber Pakhtunkhwa, Pakistan" },
-            { icon: Phone, label: "Call Us", value: "+92 300 000 0000", href: "tel:+923000000000" },
+            { icon: Phone, label: "Call Us", value: "+92 345 966 7798", href: "tel:+923459667798" },
             { icon: Mail, label: "Email Us", value: "info@haconstruction.pk", href: "mailto:info@haconstruction.pk" },
             { icon: Clock, label: "Working Hours", value: "Mon – Sat · 8:00 AM – 7:00 PM" },
           ].map((c) => (

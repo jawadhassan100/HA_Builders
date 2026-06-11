@@ -55,7 +55,7 @@ export function Footer() {
           <h4 className="text-white font-semibold mb-4">Reach Us</h4>
           <ul className="space-y-3 text-sm">
             <li className="flex gap-3"><MapPin className="size-4 mt-0.5 text-brand-orange" /> Swabi, Khyber Pakhtunkhwa, Pakistan</li>
-            <li className="flex gap-3"><Phone className="size-4 mt-0.5 text-brand-orange" /> +92 300 000 0000</li>
+            <li className="flex gap-3"><Phone className="size-4 mt-0.5 text-brand-orange" /> +92 345 966 7798</li>
             <li className="flex gap-3"><Mail className="size-4 mt-0.5 text-brand-orange" /> info@haconstruction.pk</li>
           </ul>
         </div>

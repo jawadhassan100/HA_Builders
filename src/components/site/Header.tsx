@@ -56,7 +56,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="tel:+923000000000"
+            href="tel:+923459667798"
             className="hidden md:inline-flex items-center gap-2 rounded-full bg-brand-orange px-5 py-2.5 text-sm font-semibold text-brand-navy-deep shadow-[var(--shadow-brand)] hover:scale-[1.03] active:scale-100 transition-transform"
           >
             <Phone className="size-4" />
